@@ -16,6 +16,7 @@ $(document).ready(function(){
 		ready: function () {
 			$(this).jPlayer("setMedia", {
 				title: "Big Buck Bunny Trailer",
+                mp4: "./video/tt.mp4"
 				m4v: "./video/tt.flv",
 				flv: "./video/tt.flv",
 				ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
@@ -26,7 +27,7 @@ $(document).ready(function(){
 			$(this).jPlayer("pauseOthers");
 		},
 		swfPath: "./dist/jplayer",
-		supplied: "flv, m4v, ogv",
+		supplied: "mp4, flv, m4v, ogv",
 		globalVolume: true,
 		useStateClassSkin: true,
 		autoBlur: false,
